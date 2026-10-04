@@ -32,5 +32,15 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@whiskeysockets/baileys",
+      "ffmpeg-static",
+      "sharp",
+      "node-webpmux",
+      "protobufjs",
+      "qrcode-terminal"
+    ]
   }
 }
